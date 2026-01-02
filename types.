@@ -1,0 +1,21 @@
+export interface Project {
+  id: string;
+  title: string;
+  category: string;
+  description: string;
+  coverImage:  string;
+  tags: string[];
+  mission: string;
+  techStack:  string[];
+  gallery: string[];
+}
+
+export interface Experience {
+  id: string;
+  company: string;
+  role: string;
+  period: string;
+  summary: string;
+  tools: string[];
+  projects: string[];
+}
